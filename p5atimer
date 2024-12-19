@@ -1,0 +1,75 @@
+#!/bin/bash
+
+# Project #5a execution timing script.
+#
+# -----------------------------------------------------
+# Initial checks.
+#	Ensure executable files exists.
+#	Ensure test file exists
+#
+if [ -z $1 ]; then
+	echo "Usage:  ./p5atimer <executable>"
+	exit
+fi
+#
+if [ ! -e $1 ] || [ ! -x $1 ]; then
+	echo "Error, unable to find project #5A $1 executable file."
+	exit
+fi
+#
+# -----------------------------------------------------
+# Display cute header
+#
+bolded=`tput bold`
+normal=`tput sgr0`
+#
+clear
+echo "**********************************************"
+echo -e "${bolded}Project #5A -> Timed Executions${normal}"
+echo -e "This will take a few minutes...\n\n"
+#
+# -----------------------------------------------------
+#  Times tests
+#
+echo "##############################################" > p5atimes.txt
+echo "Function 1" >> p5atimes.txt
+echo "##############################################" > p5aresults.txt
+echo -e "Starting Timed Executions\\n"
+#
+for cnt in {1..6..1}
+do
+	echo -e "\\n-------------------" >> p5atimes.txt
+	echo -e "\\n-------------------" >> p5aresults.txt
+	echo "Timed Test ($cnt thread)" >> p5atimes.txt
+	echo "Timed Test ($cnt thread)" >> p5aresults.txt
+	(time ./$1 -t $cnt -l 1000000000 -f 1) >> p5aresults.txt 2>> p5atimes.txt
+	echo "Timed Test ($cnt thread) completed."
+done
+#
+echo  >> p5atimes.txt
+echo "##############################################" >> p5atimes.txt
+echo "Function 2" >> p5atimes.txt
+echo  >> p5atimes.txt
+#
+for cnt in {1..6..1}
+do
+	echo -e "\\n-------------------" >> p5atimes.txt
+	echo -e "\\n-------------------" >> p5aresults.txt
+	echo "Timed Test ($cnt thread)" >> p5atimes.txt
+	echo "Timed Test ($cnt thread)" >> p5aresults.txt
+	(time ./$1 -t $cnt -l 1000000000 -f 2) >> p5aresults.txt 2>> p5atimes.txt
+	echo "Timed Test ($cnt thread) completed."
+done
+#
+echo  >> p5atimes.txt
+echo  >> p5atimes.txt
+#
+# -----------------------------------------------------
+# Done
+#
+echo
+echo
+echo "Timed Tests completed."
+echo "See ${bolded}p5atimes.txt${normal} and ${bolded}p5aresuls.txt${normal} for results "
+echo
+

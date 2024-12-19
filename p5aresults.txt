@@ -1,0 +1,181 @@
+##############################################
+
+-------------------
+Timed Test (1 thread)
+CS 370 - Project #5-A
+Evil/Odious Numbers Program
+
+Hardware Cores: 14
+Thread Count: 1
+Numbers Limit: 1000000000
+
+Please wait. Running...
+
+Evil/Odious Numbers Results
+Evil Number Count: 499999999
+Odious Number Count: 500000001
+
+-------------------
+Timed Test (2 thread)
+CS 370 - Project #5-A
+Evil/Odious Numbers Program
+
+Hardware Cores: 14
+Thread Count: 2
+Numbers Limit: 1000000000
+
+Please wait. Running...
+
+Evil/Odious Numbers Results
+Evil Number Count: 499999999
+Odious Number Count: 500000001
+
+-------------------
+Timed Test (3 thread)
+CS 370 - Project #5-A
+Evil/Odious Numbers Program
+
+Hardware Cores: 14
+Thread Count: 3
+Numbers Limit: 1000000000
+
+Please wait. Running...
+
+Evil/Odious Numbers Results
+Evil Number Count: 499999999
+Odious Number Count: 500000001
+
+-------------------
+Timed Test (4 thread)
+CS 370 - Project #5-A
+Evil/Odious Numbers Program
+
+Hardware Cores: 14
+Thread Count: 4
+Numbers Limit: 1000000000
+
+Please wait. Running...
+
+Evil/Odious Numbers Results
+Evil Number Count: 499999999
+Odious Number Count: 500000001
+
+-------------------
+Timed Test (5 thread)
+CS 370 - Project #5-A
+Evil/Odious Numbers Program
+
+Hardware Cores: 14
+Thread Count: 5
+Numbers Limit: 1000000000
+
+Please wait. Running...
+
+Evil/Odious Numbers Results
+Evil Number Count: 499999999
+Odious Number Count: 500000001
+
+-------------------
+Timed Test (6 thread)
+CS 370 - Project #5-A
+Evil/Odious Numbers Program
+
+Hardware Cores: 14
+Thread Count: 6
+Numbers Limit: 1000000000
+
+Please wait. Running...
+
+Evil/Odious Numbers Results
+Evil Number Count: 499999999
+Odious Number Count: 500000001
+
+-------------------
+Timed Test (1 thread)
+CS 370 - Project #5-A
+Evil/Odious Numbers Program
+
+Hardware Cores: 14
+Thread Count: 1
+Numbers Limit: 1000000000
+
+Please wait. Running...
+
+Evil/Odious Numbers Results
+Evil Number Count: 499999999
+Odious Number Count: 500000001
+
+-------------------
+Timed Test (2 thread)
+CS 370 - Project #5-A
+Evil/Odious Numbers Program
+
+Hardware Cores: 14
+Thread Count: 2
+Numbers Limit: 1000000000
+
+Please wait. Running...
+
+Evil/Odious Numbers Results
+Evil Number Count: 499999999
+Odious Number Count: 500000001
+
+-------------------
+Timed Test (3 thread)
+CS 370 - Project #5-A
+Evil/Odious Numbers Program
+
+Hardware Cores: 14
+Thread Count: 3
+Numbers Limit: 1000000000
+
+Please wait. Running...
+
+Evil/Odious Numbers Results
+Evil Number Count: 499999999
+Odious Number Count: 500000001
+
+-------------------
+Timed Test (4 thread)
+CS 370 - Project #5-A
+Evil/Odious Numbers Program
+
+Hardware Cores: 14
+Thread Count: 4
+Numbers Limit: 1000000000
+
+Please wait. Running...
+
+Evil/Odious Numbers Results
+Evil Number Count: 499999999
+Odious Number Count: 500000001
+
+-------------------
+Timed Test (5 thread)
+CS 370 - Project #5-A
+Evil/Odious Numbers Program
+
+Hardware Cores: 14
+Thread Count: 5
+Numbers Limit: 1000000000
+
+Please wait. Running...
+
+Evil/Odious Numbers Results
+Evil Number Count: 499999999
+Odious Number Count: 500000001
+
+-------------------
+Timed Test (6 thread)
+CS 370 - Project #5-A
+Evil/Odious Numbers Program
+
+Hardware Cores: 14
+Thread Count: 6
+Numbers Limit: 1000000000
+
+Please wait. Running...
+
+Evil/Odious Numbers Results
+Evil Number Count: 499999999
+Odious Number Count: 500000001
